@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9e007aa-51d7-4460-9f6c-991689ab9f30" name="Changes" comment="." />
+    <list default="true" id="a9e007aa-51d7-4460-9f6c-991689ab9f30" name="Changes" comment=".">
+      <change beforePath="$PROJECT_DIR$/.gitignor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Loop/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/Loop/Factorial.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +69,7 @@
       <updated>1768317288140</updated>
       <workItem from="1768317289313" duration="3943000" />
       <workItem from="1768381214639" duration="4000" />
-      <workItem from="1768400091186" duration="1613000" />
+      <workItem from="1768400091186" duration="5212000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
