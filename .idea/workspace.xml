@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9e007aa-51d7-4460-9f6c-991689ab9f30" name="Changes" comment=".">
-      <change beforePath="$PROJECT_DIR$/.gitignor" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic/Basics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic/TypeCasting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Loop/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/Loop/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basic/Hello.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -35,6 +37,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.VoteEligible.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
@@ -50,8 +53,24 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Java\Basic" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="?" />
+      <command value="npm" />
+    </option>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -70,6 +89,12 @@
       <workItem from="1768317289313" duration="3943000" />
       <workItem from="1768381214639" duration="4000" />
       <workItem from="1768400091186" duration="5212000" />
+      <workItem from="1768489576415" duration="1005000" />
+      <workItem from="1769256943320" duration="2192000" />
+      <workItem from="1769435575292" duration="3176000" />
+      <workItem from="1769522569068" duration="669000" />
+      <workItem from="1769607550411" duration="419000" />
+      <workItem from="1770533864288" duration="1407000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
