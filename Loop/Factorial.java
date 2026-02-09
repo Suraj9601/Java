@@ -12,7 +12,7 @@ class Factorial {
             fact*=i;
         }
         System.out.println(fact);
-
+        sc.close();
     }
     public static void main(String[] args) {
 
