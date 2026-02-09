@@ -9,10 +9,11 @@ class GreatestNo {
         int b = sc.nextInt();
         System.out.print("Enter third value : ");
         int c = sc.nextInt();
+        sc.close();
 
-        if(a>b || a>c) {
+        if(a>b && a>c) {
             System.out.println(a + " is greater.");
-        } else if (b>a || b > c) {
+        } else if (b>a && b > c) {
             System.out.println(b + " is greater.");
         } else {
             System.out.println(c + " is greater.");
