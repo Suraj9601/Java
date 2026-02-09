@@ -1,0 +1,47 @@
+⭐ Absolute Basics (Asked Everywhere)
+
+Check whether a number is even or odd
+Find the largest of two numbers
+Find the largest of three numbers
+Check whether a number is positive, negative, or zero
+Check eligibility for voting
+
+⭐ Very Frequently Asked (Core Java Rounds)
+
+Check whether a year is a leap year
+Grade calculator based on marks
+Simple calculator using switch case
+Check whether a character is a vowel or consonant
+Check whether a number is divisible by 3 and 5
+
+⭐ Logic + Conditions (Interview Favorite)
+
+Find number of days in a given month
+Determine type of triangle (equilateral, isosceles, scalene)
+Check whether a number is prime
+Check whether a number is an Armstrong number
+Check whether a number is a palindrome
+
+⭐ Real-World Scenarios (Highly Valued)
+
+ATM withdrawal validation (balance, minimum balance, multiple of 100)
+Login validation system (username & password)
+Electricity bill calculation using slabs
+Income tax calculation based on salary slabs
+Student pass/fail/distinction system
+
+⭐ Tricky / Output-Based (Used to Filter Candidates)
+
+Output prediction using post-increment in if condition
+Output prediction of nested if-else
+Switch case without break (fall-through)
+Dangling else problem
+Valid vs invalid condition in Java (if(5) vs if(true))
+
+⭐ Switch-Specific (Java Interviews)
+
+Day of week using switch
+Month name using switch
+Switch with String values
+Menu-driven program using switch
+Convert if-else ladder to switch
