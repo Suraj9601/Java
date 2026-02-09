@@ -1,7 +1,7 @@
 ⭐ Absolute Basics (Asked Everywhere)
 
-Check whether a number is even or odd
-Find the largest of two numbers
+Check whether a number is even or odd ✅
+Find the largest of two numbers ✅
 Find the largest of three numbers
 Check whether a number is positive, negative, or zero
 Check eligibility for voting
