@@ -1,4 +1,5 @@
-import java.util.*;
+import java.util.Scanner;
+
 public class PositiveNegativeNo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -10,14 +11,11 @@ public class PositiveNegativeNo {
 
         if (num == 0) {
             System.out.println("Entered number is Zero.");
-        } 
-        else if (num > 0) {
+        } else if (num > 0) {
             System.out.println("Entered number id positve.");
-        } 
-        else if (num < 0) {
+        } else if (num < 0) {
             System.out.println("Entered number is negative.");
-        } 
-        else {
+        } else {
             System.out.println("Please enter valid number.");
         }
 
