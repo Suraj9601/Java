@@ -14,5 +14,6 @@ class PrintEvenNo {
                 System.out.println(i);
             }
         }
+        sc.close();
     }
 }

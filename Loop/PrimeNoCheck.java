@@ -28,5 +28,7 @@ class PrimeNoCheck {
         int num = sc.nextInt();
 
         primeCheck(num);
+        sc.close();
     }
+
 }

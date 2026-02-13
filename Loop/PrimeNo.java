@@ -5,7 +5,7 @@ class PrimeNo {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int num = sc.nextInt();
-
+        sc.close();
         if(num<=1) {
             System.out.println("Not Prime");
         }
