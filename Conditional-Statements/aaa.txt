@@ -8,8 +8,8 @@ Check eligibility for voting ✅
 
 ⭐ Very Frequently Asked (Core Java Rounds)
 
-Check whether a year is a leap year
-Grade calculator based on marks
+Check whether a year is a leap year ✅
+Grade calculator based on marks ✅
 Simple calculator using switch case
 Check whether a character is a vowel or consonant
 Check whether a number is divisible by 3 and 5
