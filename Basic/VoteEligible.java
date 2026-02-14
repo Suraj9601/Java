@@ -12,5 +12,6 @@ class VoteEligible {
             System.out.println("Not eligible for Voting!");
             System.out.println("Your are eligible after 18 for voting.");
         }
+        sc.close();
     }
 }

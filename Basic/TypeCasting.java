@@ -5,7 +5,7 @@ class TypeCasting {
 
         // Type casting
 
-          int c = s;// byte to int
+        int c = s;// byte to int
         System.out.println(b);
     }
 }
