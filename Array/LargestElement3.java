@@ -1,4 +1,4 @@
-public class LargestElementL3 {
+public class LargestElement3 {
     public static void main(String[] args) {
         int arr[] = { 8, 4, 6, 2, 3, 9, 5 };
         int max = arr[0];
@@ -11,3 +11,4 @@ public class LargestElementL3 {
         System.out.println(max);
     }
 }
+ 
