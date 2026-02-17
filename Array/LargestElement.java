@@ -5,17 +5,18 @@ public class LargestElement {
         
         // Method - 1 (Logic-1)
         int arr[] = { 2, 5, 1, 25, 10, 8, 23, 7 };
+        System.out.println("Array = " + Arrays.toString(arr));
         int max = arr[0];
         for(int ele:arr){
             if(max<ele) {
                 max = ele;
             }
         }
-        System.out.println("Largest element : " + max);
+
+        System.out.println("Largest element (Method-1) : " + max);
 
         // Method - 2 (Logic-2)
-        int[] arr1 = {4,2,7,5,9,12,4,10};
-        Arrays.sort(arr1);
-        System.out.println("Largest element : " + arr1[arr1.length-1]);
+        Arrays.sort(arr);
+        System.out.println("Largest element (Method-2) : " + arr[arr.length-1]);
     }
 }
