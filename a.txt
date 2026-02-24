@@ -1,0 +1,133 @@
+Top 30 Array Coding Questions
+⭐ Part 1 (1–10)
+
+Find the Largest Element in an Array
+
+Find the Second Largest Element
+
+Reverse an Array
+
+Check if Array Is Sorted
+
+Remove Duplicates from a Sorted Array
+
+Rotate an Array by K Positions
+
+Find the Missing Number in an Array (1 to N)
+
+Move All Zeros to the End of an Array
+
+Find the Intersection of Two Arrays
+
+Find the Union of Two Arrays
+
+⭐ Part 2 (11–20)
+
+Maximum Subarray Sum (Kadane’s Algorithm)
+
+Maximum Product Subarray
+
+Count Frequency of Elements in an Array
+
+Find the First Repeating Element in an Array
+
+Find the First Non-Repeating Element in Array
+
+Find the Element That Appears Only Once (XOR Method)
+
+Find Common Elements in Three Sorted Arrays
+
+Find the Smallest Subarray with Sum Greater Than X
+
+Rearrange Positive and Negative Numbers Alternately
+
+Find a Pair in an Array That Sums to K
+
+⭐ Part 3 (21–30)
+
+Find a Triplet in an Array That Sums to K
+
+Find the Majority Element (Moore’s Voting Algorithm)
+
+Next Greater Element for Each Element in an Array
+
+Find the Median of Two Sorted Arrays
+
+Maximum Length of an Equal 0–1 Subarray
+
+Longest Increasing Subsequence (LIS)
+
+Maximum Sum Increasing Subsequence
+
+Minimum Swaps to Bring Elements Less Than K Together
+
+Find the Leader Elements in an Array
+
+Find the Smallest Missing Positive Integer
+
+☕ 30 Java String Coding Problems
+⭐ Part 1 (1–10)
+
+Reverse a String
+
+Check if a String is Palindrome
+
+Count Occurrences of a Character
+
+Find Duplicate Characters in a String
+
+Remove Duplicates from a String
+
+Check if Two Strings are Anagrams
+
+Find First Non-Repeated Character
+
+Check if a String Contains Only Digits
+
+Count Vowels and Consonants
+
+Check if a String is a Rotation of Another String
+
+⭐ Part 2 (11–20)
+
+Find the Longest Word in a Sentence
+
+Convert a String to Title Case
+
+Find All Permutations of a String
+
+Convert String to Integer Without Integer.parseInt()
+
+Find the Frequency of Words in a Sentence
+
+Convert String to char[] Without toCharArray()
+
+Remove All Non-Alphabetic Characters from a String
+
+Convert Lowercase to Uppercase Without toUpperCase()
+
+Reverse Words in a Sentence
+
+Check if Two Strings Are One Edit Distance Apart
+
+⭐ Part 3 (21–30)
+
+Implement strStr() (Find Substring Index)
+
+Compress a String (aaabb → a3b2)
+
+Find Longest Common Prefix in an Array of Strings
+
+Implement isSubstring() Without contains()
+
+Print All Substrings of a String
+
+Convert a Number to Words (123 → One Hundred Twenty-Three)
+
+Validate an Email Address Format
+
+Convert CamelCase to snake_case
+
+Find the Lexicographically Smallest String
+
+Remove Consecutive Duplicate Words from a Sentence
