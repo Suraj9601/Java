@@ -1,16 +1,21 @@
-import java.util.Arrays;
-
 public class RemoveDuplicatesFromSortedArray {
     public static void main(String[] args) {
         int[] arr = {1,2,2,3,3,5,5,7,8};
-        int[] realArr = new int[arr.length];
+        int n = removeDuplicates(arr);
 
-        for (int i = 0; i < arr.length; i++) {
-            if(realArr[i]<arr[i]) {
-                realArr[i] = arr[i];
+        for (int i = 0; i < n; i++) {
+            System.out.print(arr[i]+" ");
+        }
+    }
+
+    static int removeDuplicates(int[] arr) {
+        int i = 0;
+        for (int j = 1; j < arr.length; j++) {
+            if (arr[i]!=arr[j]) {
+                i++;
+                arr[i] = arr[j];
             }
         }
-        System.out.println(Arrays.toString(arr));
-        System.out.println(Arrays.toString(realArr));
+        return i+1;
     }
 }
