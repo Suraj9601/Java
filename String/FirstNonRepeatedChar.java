@@ -1,18 +1,19 @@
 public class FirstNonRepeatedChar {
     public static void main(String[] args) {
-        String str = "banana";
-        System.out.println(findChar(str));
+        String str = "aanana";
+        findChar(str);
     }
 
-    static char findChar(String str) {
+    static void findChar(String str) {
         char[] charArr = str.toCharArray();
         int i =0;
+        int j = 0;
         
-        for(int j=1; j<charArr.length; j++){
-            if (charArr[i] != charArr[j]) {
-                return charArr[i];
+        while (i<j) {
+            if (charArr[i] == charArr[j]) {
+                System.out.println(charArr[i]);
+                break;
             }
         }
-        return charArr[i]  ;
     }
 }
