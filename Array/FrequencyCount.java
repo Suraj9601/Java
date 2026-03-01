@@ -1,22 +1,13 @@
-import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 public class FrequencyCount {
     public static void main(String[] args) {
-        int[] arr = { 1, 3, 5, 2, 5, 8, 1, 5, 9 };
-
-        for (int i = 0; i < arr.length; i++) {
-            int x = arr[i];
-            int count = 0;
-            if (x == -1)
-                continue;
-            for (int j = 0; j < arr.length; j++) {
-                if (arr[j] == x) {
-                    count++;
-                    arr[j] = -1;
-                }
-            }
-            System.out.println("Element " + x + " : " + count);
-            System.out.println(Arrays.toString(arr));
+        int[] arr = {1,2,5,6,1,8,2,9,1,4,5};
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i : arr) {
+            map.put(i, map.getOrDefault(i, 0)+1);
         }
+        System.out.println(map);
     }
 }
