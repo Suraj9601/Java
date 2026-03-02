@@ -16,6 +16,6 @@ public class FirstRepeatingElement {
             }
             set.add(num);
         }
-        System.out.println("No repeating element found");
+        System.out.println("No repeating element in array.");
     }
 }
