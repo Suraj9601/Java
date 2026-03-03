@@ -12,11 +12,8 @@ public class LargestElement {
                 max = ele;
             }
         }
+        System.out.println("Largest element : " + max);
 
-        System.out.println("Largest element (Method-1) : " + max);
-
-        // Method - 2 (Logic-2)
-        Arrays.sort(arr);
-        System.out.println("Largest element (Method-2) : " + arr[arr.length-1]);
+        
     }
 }
