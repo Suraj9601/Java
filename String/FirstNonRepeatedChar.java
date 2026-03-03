@@ -1,6 +1,6 @@
 public class FirstNonRepeatedChar {
     public static void main(String[] args) {
-        String str = "aanana";
+        String str = "banana";
         findChar(str);
     }
 
@@ -15,5 +15,6 @@ public class FirstNonRepeatedChar {
                 break;
             }
         }
+        System.out.println("Non repeated character not found.");
     }
 }
