@@ -1,3 +1,4 @@
+package Linear_Search_Questions;
 // Return character index in string.
 public class LinearSearchString {
     public static void main(String[] args) {

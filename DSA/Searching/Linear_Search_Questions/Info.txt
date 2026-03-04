@@ -1,0 +1,16 @@
+Searching algorithm:
+        1. Linear Search
+        2. Binary Search
+
+1. Linear Search : 
+Find first occurrence
+Find last occurrence
+Find all occurrences
+Search in strings
+Search in 2D array / matrix
+
+Find element index in array
+Find maximum element in array
+Find minimum element in array
+Count occurrences of element
+Check element exists or not
