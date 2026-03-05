@@ -1,17 +1,18 @@
 import java.util.Scanner;
-public class PowerOfTwo {
+
+public class FindNFactorial {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number : ");
         int n = sc.nextInt();
-        System.out.println(isPowerOfTwo(n));
         sc.close();
+        System.out.println("Factorial of " + n + " : " + findFactorial(n));
     }
 
-    static boolean isPowerOfTwo(int n) {
-        if (n <= 0) {
-            return false;
+    static int findFactorial(int n) {
+        if (n == 0) {
+            return 1;
         }
-        return (n & n - 1) == 0;
+        return n * findFactorial(n - 1);
     }
 }
