@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class PrintNo {
+class RevesePrintNo {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
