@@ -5,7 +5,6 @@ public class QuickSort {
     }
 
     static void quickSort(int[] arr, int st, int end) {
-        int pivot = arr[0];
-        
+    
     }
 }
