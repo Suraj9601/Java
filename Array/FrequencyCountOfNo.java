@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class FrequencyCount {
+public class FrequencyCountOfNo {
     public static void main(String[] args) {
         int[] arr = {1,2,5,6,1,8,2,9,1,4,5};
         Map<Integer, Integer> map = new HashMap<>();
