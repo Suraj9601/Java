@@ -1,3 +1,5 @@
+package com.Searching;
+
 public class RecursiveBinarySearch {
     public static void main(String[] args) {
         int[] arr = { 40, 45, 50, 68, 70, 85 };
