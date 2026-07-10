@@ -1,71 +1,30 @@
 package com.LinkedList;
 
 class Node {
-    int val;
-    Node next;
-
-    Node(int val) {
-        this.val = val;
-        this.next = null;
-    }
+	int data;
+	Node next;
+	
+	Node(int data) {
+		this.data = data;
+		this.next = null;
+	}
 }
 
-class LinkedList {
-    Node head;
-
-    void insertFirst(int val) {
-        Node newNode = new Node(val);
-        newNode.next = head;
-        head = newNode;
-    }
-
-    void insertLast(int val) {
-        Node newNode = new Node(val);
-
-        if (head == null) {
-            head = newNode;
-            return;
-        }
-
-        Node temp = head;
-
-        while (temp.next != null) {
-            temp = temp.next;
-        }
-
-        temp.next = newNode;
-    }
-
-    void display() {
-        if (head == null) {
-            System.out.println("Linked List is Empty.");
-            return;
-        }
-
-        Node temp = head;
-
-        while (temp != null) {
-            System.out.print(temp.val + " -> ");
-            temp = temp.next;
-        }
-
-        System.out.println("null");
-    }
-}
-
-public class CreateLL {
-
-    public static void main(String[] args) {
-
-        LinkedList list = new LinkedList();
-
-        list.insertFirst(10);
-        list.insertFirst(20);
-        list.insertFirst(30);
-
-        list.insertLast(40);
-        list.insertLast(50);
-
-        list.display();
-    }
+class CreateLL {
+	public static void main(String[] args) {
+		Node fNode = new Node(10);
+		Node sNode = new Node(20);
+		Node tNode = new Node(30);
+		
+		fNode.next = sNode;
+		sNode.next = tNode;
+	
+		Node temp = fNode;
+		while(temp != null) {
+			System.out.print(temp.data + " -> ");
+			temp = temp.next;
+		}
+		System.out.println("null");
+		
+	}
 }
