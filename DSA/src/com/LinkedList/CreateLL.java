@@ -25,6 +25,5 @@ class CreateLL {
 			temp = temp.next;
 		}
 		System.out.println("null");
-		
 	}
 }
