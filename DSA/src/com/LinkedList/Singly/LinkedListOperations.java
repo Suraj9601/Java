@@ -1,6 +1,6 @@
 package com.LinkedList.Singly;
 
-public class LinkedList {
+class LinkedList {
 	public Node head;
 	public int size = 0;
 	
@@ -141,5 +141,24 @@ public class LinkedList {
 		System.out.println("null");
 		System.out.println("Size of LinkedList : "+size);
 		
+	}
+}
+
+public class LinkedListOperations {
+	public static void main(String[] args) {
+		LinkedList list = new LinkedList();
+		
+		list.insertFirst(10);
+		list.insertLast(40);
+		list.insertAtIndex(1, 30);
+		list.insertFirst(50);
+		list.insertLast(80);
+		
+		list.display();
+		System.out.println();
+		list.deleteByData(40);
+		
+		list.display();
+
 	}
 }
