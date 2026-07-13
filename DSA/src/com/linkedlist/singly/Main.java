@@ -20,5 +20,6 @@ public class Main {
 		list.deleteByData(10);
 		
 		list.display();
+		
 	}
 }
