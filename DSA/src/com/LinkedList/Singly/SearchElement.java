@@ -1,0 +1,36 @@
+package com.LinkedList.Singly;
+
+import java.util.Scanner;
+
+public class SearchElement {
+	static LinkedList list = new LinkedList();
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		list.insertLast(10);
+		list.insertLast(20);
+		list.insertLast(30);
+		list.insertLast(40);
+		list.insertLast(50);
+		list.display();
+		System.out.print("Enter the element to search : ");
+		searchElement(sc.nextInt());
+		
+	}
+	public static void searchElement(int data) {
+		Node temp = list.head;
+		int idx = 0;
+		
+		while(temp != null) {
+			if(temp.data == data) {
+				System.out.println(data + " found at idx "+idx);
+				return;
+			}
+			temp = temp.next;
+			idx++;
+		}
+		System.out.println("Element Not Found");
+	}
+
+}

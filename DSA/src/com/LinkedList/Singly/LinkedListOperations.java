@@ -138,9 +138,7 @@ class LinkedList {
 			System.out.print(temp.data + " -> ");
 			temp = temp.next;
 		}
-		System.out.println("null");
-		System.out.println("Size of LinkedList : "+size);
-		
+		System.out.println("null");	
 	}
 }
 
@@ -159,6 +157,7 @@ public class LinkedListOperations {
 		list.deleteByData(40);
 		
 		list.display();
+		System.out.println("Size of LinkedList : "+list.size);
 
 	}
 }
