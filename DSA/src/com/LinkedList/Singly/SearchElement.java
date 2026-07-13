@@ -16,6 +16,7 @@ public class SearchElement {
 		list.display();
 		System.out.print("Enter the element to search : ");
 		searchElement(sc.nextInt());
+		sc.close();
 		
 	}
 	public static void searchElement(int data) {
