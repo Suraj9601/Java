@@ -30,7 +30,7 @@ public class SearchElement {
 			temp = temp.next;
 			idx++;
 		}
-		System.out.println("Element Not Found");
+		System.out.println("Element Not Found.");
 	}
 
 }
