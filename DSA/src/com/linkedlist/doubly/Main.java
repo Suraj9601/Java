@@ -6,14 +6,18 @@ public class Main {
 		LinkedList list = new LinkedList();
 		
 		list.insertFirst(20);
-//		list.insertFirst(40);
-//		
-//		list.insertLast(10);
+		list.insertFirst(40);
+		list.insertFirst(50);
 		
-		System.out.println(list.tail);
+		list.insertLast(10);
+		list.insertLast(90);
+		
+		list.insertAtIndex(1, 30);
+
 		
 
 		list.display();
+//		list.reverseDisplay();
 
 	}
 

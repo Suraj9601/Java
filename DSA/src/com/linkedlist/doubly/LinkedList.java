@@ -26,12 +26,28 @@ public class LinkedList {
 			insertFirst(data);
 			return;
 		}
+		tail.next = newNode;
+		newNode.prev = tail;
+		tail = newNode;
+		size++;
+	}
+	
+	public void insertAtIndex(int idx, int data) {
+		Node newNode = new Node(data);
+		
+		if(head == null || idx == 0) {
+			insertFirst(data);
+			return;
+		}
+
 		Node temp = head;
-		while(temp.next != null) {
+		for(int i = 0; i < idx-1; i++) {
 			temp = temp.next;
 		}
-		newNode.prev = temp;
+		newNode.next = temp.next;
+		temp.next.prev = newNode.next;
 		temp.next = newNode;
+		newNode.prev = temp.next;
 		size++;
 	}
 	
@@ -42,8 +58,18 @@ public class LinkedList {
 		}
 		Node temp = head;
 		while(temp != null) {
-			System.out.print(temp.data +" -> ");
+			System.out.print(temp.data +" <-> ");
 			temp = temp.next;
+		}
+		System.out.println("null");
+	}
+	
+	public void reverseDisplay() {
+		Node temp = tail;
+
+		while (temp != null) {
+		    System.out.print(temp.data + " <-> ");
+		    temp = temp.prev;
 		}
 		System.out.println("null");
 	}
