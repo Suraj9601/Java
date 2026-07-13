@@ -19,12 +19,19 @@ public class SearchElement {
 		
 	}
 	public static void searchElement(int data) {
+		if(list.head == null) {
+			System.out.println("LinkedList is Empty.");
+		}
+		if(list.head.data == data) {
+			System.out.println(data + " is found at idx 0");
+			return;
+		}
 		Node temp = list.head;
 		int idx = 0;
 		
 		while(temp != null) {
 			if(temp.data == data) {
-				System.out.println(data + " found at idx "+idx);
+				System.out.println(data + " is found at idx "+idx);
 				return;
 			}
 			temp = temp.next;
@@ -32,5 +39,4 @@ public class SearchElement {
 		}
 		System.out.println("Element Not Found.");
 	}
-
 }
