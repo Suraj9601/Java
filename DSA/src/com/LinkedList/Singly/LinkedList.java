@@ -1,7 +1,8 @@
-package com.LinkedList.Singly;
+package com.linkedlist.singly;
 
-class LinkedList {
+public class LinkedList {
 	public Node head;
+	public Node tail;
 	public int size = 0;
 	
 	// Insert Operations 
@@ -139,25 +140,5 @@ class LinkedList {
 			temp = temp.next;
 		}
 		System.out.println("null");	
-	}
-}
-
-public class LinkedListOperations {
-	public static void main(String[] args) {
-		LinkedList list = new LinkedList();
-		
-		list.insertFirst(10);
-		list.insertLast(40);
-		list.insertAtIndex(1, 30);
-		list.insertFirst(50);
-		list.insertLast(80);
-		
-		list.display();
-		System.out.println();
-		list.deleteByData(40);
-		
-		list.display();
-		System.out.println("Size of LinkedList : "+list.size);
-
 	}
 }
