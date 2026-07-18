@@ -3,7 +3,7 @@ package com.linkedlist.singly.problems;
 import com.linkedlist.singly.LinkedList;
 import com.linkedlist.singly.Node;
 
-public class FindNthElementFromEnd {
+public class NthElementFromEnd {
 	public static void main(String[] args) {
 		LinkedList list = new LinkedList();
 		
@@ -28,20 +28,21 @@ public class FindNthElementFromEnd {
 			return;
 		}
 		
-		int size = list.size;
-		
-		if(n == size) {
+		if(n == list.size) {
 			System.out.println(n + "th Node from end : " + list.head.data);
 			list.head = list.head.next;
 			return;
 		}
-		int nodeIdx = (size - n)+1;
-		Node temp = list.head;
-		for(int i = 1; i < nodeIdx -1 ; i++) {
-			temp = temp.next;
+		int i =1;
+		int target = list.size - n;
+		Node prev = list.head;
+		while(i < target) {
+			prev = prev.next;
+			i++;
 		}
-		System.out.println(nodeIdx);
-		System.out.println(n + "th Node from end : " + temp.next.data);
-		temp.next = temp.next.next;
+		System.out.println(n + "th Node from end : " + prev.next.data);
+		
+		prev.next = prev.next.next;
+		
 	}
 }
