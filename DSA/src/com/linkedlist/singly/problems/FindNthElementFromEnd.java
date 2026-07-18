@@ -18,17 +18,30 @@ public class FindNthElementFromEnd {
 		
 		find(list, 4);
 		
+		list.display();
 		
 	}
-	
-	// 10 -> 20 -> 30 -> 40 -> 50 -> 60 -> 70 -> null
+
 	public static void find(LinkedList list, int n) {
+		if(list.head == null) {
+			System.out.println("LinkedList is empty");
+			return;
+		}
+		
 		int size = list.size;
-		int nodeIdx = size - n;
+		
+		if(n == size) {
+			System.out.println(n + "th Node from end : " + list.head.data);
+			list.head = list.head.next;
+			return;
+		}
+		int nodeIdx = (size - n)+1;
 		Node temp = list.head;
-		for(int i = 1; i < nodeIdx ; i++) {
+		for(int i = 1; i < nodeIdx -1 ; i++) {
 			temp = temp.next;
 		}
-		System.out.println(n + " Node from end : " + temp.data);
+		System.out.println(nodeIdx);
+		System.out.println(n + "th Node from end : " + temp.next.data);
+		temp.next = temp.next.next;
 	}
 }
