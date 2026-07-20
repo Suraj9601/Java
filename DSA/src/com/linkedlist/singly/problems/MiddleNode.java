@@ -15,30 +15,20 @@ public class MiddleNode {
 		
 		list.display();
 		
-		int result = middleNode(list);
-		
-		if(result == 0) {
-			System.out.println("LinkedList is empty.");
-		} else {
-			System.out.println("Middle element : "+result);
-		}
-		
+		Node midNode = middleNode(list.head);
+		System.out.println("Middle Node : " + midNode.data);
 	}
 	
-	public static int middleNode(LinkedList list) {
-	    if (list.head == null) {
-	        return 0;
-	    }
-
-	    Node slow = list.head;
-	    Node fast = list.head;
+	public static Node middleNode(Node head) {
+	    Node slow = head;
+	    Node fast = head;
 
 	    while (fast != null && fast.next != null) {
 	        slow = slow.next;
 	        fast = fast.next.next;
 	    }
 
-	    return slow.data;
+	    return slow;
 	}
 
 }
