@@ -12,7 +12,6 @@ public class MiddleNode {
 		list.insertLast(40);
 		list.insertLast(50);
 		
-		
 		list.display();
 		
 		Node midNode = middleNode(list.head);
@@ -30,5 +29,4 @@ public class MiddleNode {
 
 	    return slow;
 	}
-
 }
