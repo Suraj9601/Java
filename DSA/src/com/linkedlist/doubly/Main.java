@@ -14,10 +14,10 @@ public class Main {
 		
 		list.insertAtIndex(1, 30);
 
-		
+		list.removeFirst();
 
 		list.display();
-//		list.reverseDisplay();
+		System.out.println(list.tail.data);
 
 	}
 

@@ -1,5 +1,5 @@
 package com.linkedlist.doubly;
-
+// Doubly LinkedList
 public class LinkedList {
 	public Node head;
 	public Node tail;
@@ -51,6 +51,16 @@ public class LinkedList {
 		size++;
 	}
 	
+	public void removeFirst() {
+		if(head == null) {
+			System.out.println("LL is empty.");
+			return;
+		}
+		head = head.next;
+		head.prev = null;
+		size--;
+	}
+	
 	public void display() {
 		if(head == null) {
 			System.out.println("LL is Empty.");
@@ -64,13 +74,5 @@ public class LinkedList {
 		System.out.println("null");
 	}
 	
-	public void reverseDisplay() {
-		Node temp = tail;
-
-		while (temp != null) {
-		    System.out.print(temp.data + " <-> ");
-		    temp = temp.prev;
-		}
-		System.out.println("null");
-	}
+	
 }
